@@ -4,8 +4,8 @@ import { TypeOrmModule } from '@nestjs/typeorm';
 import { Offer } from './entities/offer.entity';
 import { OfferService } from './offer.service';
 import { OffersTaskService } from './tasks/offers.task';
-import { Offer1TaskService } from './tasks/offer1.task';
-import { Offer2TaskService } from './tasks/offer2.task';
+// import { Offer1TaskService } from './tasks/offer1.task';
+// import { Offer2TaskService } from './tasks/offer2.task';
 
 @Module({
   imports: [
